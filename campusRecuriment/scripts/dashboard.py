@@ -2,10 +2,8 @@ import streamlit as st
 import pandas as pd
 import os
 
-# ---------- PAGE SETTINGS ----------
 st.set_page_config(page_title="Entity Timeline Dashboard", layout="wide")
 
-# ---------- CUSTOM STYLES (Midnight Blue + White Metric Cards) ----------
 st.markdown("""
     <style>
     /* Main background gradient */
@@ -94,7 +92,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# ---------- TITLE ----------
+
 st.title("📊 Entity Timeline Dashboard")
 st.write("Interactive dashboard for entity-level timeline analysis.")
 
